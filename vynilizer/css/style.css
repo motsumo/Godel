@@ -1,0 +1,31 @@
+@keyframes plaing {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.vynilizer {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.butttons {
+    margin-top: 20px;
+}
+
+.play {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.disc {
+    width: 70%;
+}
